@@ -18,7 +18,13 @@
             </label>
             <label for="pais">
                 <span>¿En qué país vives?</span>
-                <input type="text" id="pais" name="pais" autocomplete="country" required>
+                <input list="pais" name="pais" required>
+                <datalist id="pais">
+                    <option value="México"></option>
+                    <option value="Colombia"></option>
+                    <option value="EU"></option>
+                    <option value="Canadá"></option>
+                </datalist>
             </label>
             <label for="cp">
                 <span>¿Cuál es tu código postal?</span>
