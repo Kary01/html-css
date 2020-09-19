@@ -1,7 +1,16 @@
+body{
+    background-color: rgb(248, 196, 176);
+    color: white;
+}
+
 h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 25px;
+    margin-bottom: 8%;
+    background-color: #759ed1;
+    padding: 3%;
+    border-radius: 10px;
 }
 
 h2{
@@ -10,27 +19,12 @@ h2{
     text-align: center;
 }
 
-.frutas{
-    border: black solid 1px;
-    margin-top: 10%;
+section{
+    border: 1px;
     margin-bottom: 5%;
     margin-left: 30%;
     width: 200px;
     padding: 10px;
-}
-
-.verduras{
-    border: black solid 1px;
-    margin-bottom: 5%;
-    margin-left: 30%;
-    width: 200px;
-    padding: 10px;
-}
-
-.pastas{
-    border: black solid 1px;
-    margin-bottom: 5%;
-    margin-left: 30%;
-    width: 200px;
-    padding: 10px;
+    background-color: #759ed1;
+    border-radius: 10px;
 }
