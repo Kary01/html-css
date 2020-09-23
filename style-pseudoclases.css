@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card__title{
+    font-size: inherit;
+}
+
 .main-nav{
     margin-top: 10px;
     list-style: none;
