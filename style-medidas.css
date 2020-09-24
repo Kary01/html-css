@@ -1,3 +1,7 @@
 .absolute{
     font-size: 18px;
 }
+
+.relative{
+    font-size: 75%;
+}
