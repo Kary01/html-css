@@ -3,3 +3,82 @@
     margin: 0;
     padding: 0;
 }
+
+html{
+    font-size: 62.5%;
+}
+
+.main-header{
+
+}
+
+.header__title{
+
+}
+
+.main-content{
+    width: 100vw;
+    height: 100vh;
+}
+
+.card-content{
+    display: flex;
+    min-width: 320px;
+    max-width: 50%;
+    min-height: 500px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: burlywood;
+    max-width: 200px;
+    min-height: 250px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.card__header{
+   display: flex;
+   position: absolute;
+   top: 140px;
+   width: 80px;
+   height: 30px;
+   justify-content: center;
+   align-items: center;
+   background-color: chocolate;
+}
+
+.card__title{
+   text-align: center;
+   color: aliceblue;
+   font-size: 1.5rem;
+}
+
+.card__figure .card__image{
+    font-display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.card__copy{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-footer{
+
+}
+
+.footer__copy{
+
+}
