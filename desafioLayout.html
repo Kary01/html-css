@@ -4,40 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style-layout.css">
+    <link rel="shortcut icon" href="images/coffee.ico" type="image/x-icon">
     <title>Desafío Layout</title>
 </head>
 <body>
-    <header>
-        <div>Logo</div>
+    <header id="header">
         <nav class="nav-main">
-            <ul class="nav__list">
-                <li class="nav__item">Inicio</li>
-                <li class="nav__item">Cursos</li>
-                <li class="nav__item">Instructores</li>
-                <li class="nav__item">Blog</li>
+            <ul class="nav-main__list">
+                <li class="nav-main__logo">
+                    <img class="nav-main__logo__imagen" src="images/logo.png" alt="logo">
+                </li>
+                <li class="nav-main__item">Inicio</li>
+                <li class="nav-main__item">Cursos</li>
+                <li class="nav-main__item">Instructores</li>
+                <li class="nav-main__item">Blog</li>
             </ul>
         </nav>
     </header>
-    <main>
-        <aside>
-            <article>
-                <p>Imagen</p>
+    <main id="main">
+        <aside class="aside-main">
+            <article class="aside__article ">
+                <figure class="aside__figure">
+                    <img class="aside__figure__image" src="" alt="">
+                </figure>
             </article>
-            <article>
-                <p>Imagen</p>
+            <article class="aside__article">
+                <figure class="aside__figure">
+                    <img class="aside__figure__image" src="" alt="">
+                </figure>
             </article>
-            <article>
-                <p>Imagen</p>
+            <article class="aside__article">
+                <figure class="aside__figure">
+                    <img class="aside__figure__image" src="" alt="">
+                </figure>
             </article>
         </aside>
-        <section>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, sunt repellendus magni, aspernatur incidunt rem blanditiis voluptatibus, maiores earum ipsum ea natus sit eum. Ea alias tempore facere nisi optio?</p>
+        <section class="section">
+            <article class="section__article">
+                <p class="section__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, sunt repellendus magni, aspernatur incidunt rem blanditiis voluptatibus, maiores earum ipsum ea natus sit eum. Ea alias tempore facere nisi optio?</p>
+            </article>
         </section>
-        <section>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptatibus ipsam asperiores quidem tenetur quaerat id voluptatem, consequatur rerum exercitationem, deserunt necessitatibus iste nemo culpa dolorem aspernatur consequuntur? Earum, aut.</p>
+        <section class="section">
+            <article class="section__article">
+                <p class="section__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, sunt repellendus magni, aspernatur incidunt rem blanditiis voluptatibus, maiores earum ipsum ea natus sit eum. Ea alias tempore facere nisi optio?</p>
+            </article>
         </section>
     </main>
-    <footer>
+    <footer id="footer">
         <p>Hecho con ❤ </p>
     </footer>
 </body>
