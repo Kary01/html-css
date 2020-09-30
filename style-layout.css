@@ -48,3 +48,17 @@ body{
     color: white;
 }
 
+.aside-main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    background-color: brown;
+    min-height: 600px;
+}
+
+.aside-main .aside__article{
+    min-height: 150px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
