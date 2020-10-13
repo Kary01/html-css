@@ -47,12 +47,28 @@ body{
 }
 
 .aside-section{
+    display: flex;
     flex: 30%;
+    flex-direction: column;
+    justify-content: space-around;
     background-color: chocolate;
+    padding: 30px;
 }
 
+.aside-section div{
+    display: flex;
+    width: 100%;
+    background-color: beige;
+    padding: 20px;
+    min-height: 10rem;
+}
+
+.aside__img img{
+    width: 100%;
+}
 .main-section{
     flex: 70%;
+    min-height: 530px;
     background-color: cornflowerblue;
 }
 
