@@ -66,10 +66,17 @@ body{
 .aside__img img{
     width: 100%;
 }
+
 .main-section{
     flex: 70%;
     min-height: 530px;
     background-color: cornflowerblue;
+    padding: 30px;
+}
+
+.section-article{
+    background-color: blanchedalmond;
+    padding: 20px;
 }
 
 #footer{
