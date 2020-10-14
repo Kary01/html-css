@@ -16,9 +16,11 @@ body{
 #header{
    display: flex;
    flex-wrap: wrap;
+   min-height: 15vh;
    justify-content: space-between;
    align-items: center;
    background-color: cadetblue;
+   padding: 30px;
 }
 
 .header-nav{
@@ -68,6 +70,9 @@ body{
 }
 
 .main-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     flex: 70%;
     min-height: 530px;
     background-color: cornflowerblue;
@@ -77,10 +82,20 @@ body{
 .section-article{
     background-color: blanchedalmond;
     padding: 20px;
+    margin-top: 6rem;
 }
 
 #footer{
-   
+   display: flex;
+   flex-wrap: wrap;
+   min-height: 20vh; 
+   justify-content: center;
+   align-items: center;
+   background-color: darkgoldenrod;
+}
+
+.footer__copy{
+    padding: 30px;
 }
 
 @media screen and (max-width: 700px) {
