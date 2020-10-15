@@ -13,6 +13,11 @@ html{
     font-size: 62.5%;
 }
 
+body{
+    font-size: 1.6rem;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
 header{
     display: flex;
     flex-wrap: wrap;
@@ -32,7 +37,6 @@ header{
 .header-nav{
     display: flex;
     flex-wrap: wrap;
-    font-size: 1.2rem;
 }
 
 .header-nav li{
@@ -52,11 +56,40 @@ aside{
     background-color: cadetblue;
 }
 
-section{
+.aside-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: var(--padding-main);
+}
+
+.aside__box{
+    display: flex;
+    width: 80%;
+    min-height: 10rem;
+    margin: 10px;
+}
+
+.aside__image img{
+    width: var(--width-main);
+}
+
+.section-main{
     display: flex;
     flex: 70%;
     min-height: 70vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-main);
     background-color: burlywood;   
+}
+
+.section-article{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    min-height: 2rem;
+    margin: 30px;
 }
 
 footer{
