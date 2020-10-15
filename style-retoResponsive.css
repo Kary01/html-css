@@ -1,0 +1,58 @@
+:root{
+    --padding-main: 30px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 15vh;
+    background-color: brown;
+    padding: var(--padding-main);
+}
+
+.header-logo img{
+    width: 5rem;
+    min-height: 5rem;
+}
+
+.header-nav{
+    display: flex;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside{
+    display: flex;
+    flex: 30%;
+    min-height: 70vh;
+    background-color: cadetblue;
+}
+
+section{
+    display: flex;
+    flex: 70%;
+    min-height: 70vh;
+    background-color: burlywood;   
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: auto;
+    background-color: darkgoldenrod;
+}
